@@ -25,9 +25,9 @@ hiddenFromRelated: false
 summary:
 resources:
   - name: featured-image
-    src: allaboutdave.png
+    src: allaboutdavepr.png
   - name: featured-image-preview
-    src: allaboutdave.png
+    src: allaboutdavepr.png
 toc: true
 math: false
 lightgallery: false
