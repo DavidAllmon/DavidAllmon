@@ -55,20 +55,20 @@ Before we begin, ensure you have the following prerequisites installed:
 
 First, let's clone the Docker-Mautic repository from GitHub. Navigate to [Docker-Mautic repository](https://github.com/mautic/docker-mautic/tree/mautic5/examples/basic) and clone it to your local system.
 
-`git clone https://github.com/mautic/docker-mautic.git`
+    git clone https://github.com/mautic/docker-mautic.git
 
 
 ## Step 2: Configure Environment
 
 Inside the cloned directory, you'll find three files. Create a new folder for your Mautic instance and copy these three files into the new folder.
 
-`mkdir my-mautic
-cp docker-compose.yml .env mautic.env my-mautic/
-cd my-mautic`
+    mkdir my-mautic
+    cp docker-compose.yml .env mautic.env my-mautic/
+    cd my-mautic
 
 Now, let's edit the `.env` file to set up the MySQL root password and make some adjustments.
 
-`nano .env`
+    sudo nano .env
 
 Find the line `MYSQL_ROOT_PASSWORD=changeme` and replace `changeme` with your desired password.
 
@@ -84,7 +84,7 @@ Save the changes and exit the editor.
 
 Now, we're ready to spin up the Mautic container using Docker Compose. Run the following command in your terminal:
 
-`docker-compose up -d`
+    docker-compose up -d
 
 
 This command will pull the necessary Docker images and start the Mautic container in detached mode.
