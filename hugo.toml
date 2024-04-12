@@ -25,7 +25,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # copyright description used only for seo schema
-copyright = ""
+copyright = "2024 DavidAllmon.dev"
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
@@ -320,10 +320,10 @@ enableEmoji = true
 
   # Author Configuration
   [params.author]
-    name = ""
-    email = ""
-    link = ""
-    avatar = ""
+    name = "David Allmon"
+    email = "admin@davidallmon.dev"
+    link = "https://davidallmon.dev"
+    avatar = "hugo.min.svg"
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
@@ -339,7 +339,7 @@ enableEmoji = true
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "FixIt"
+    title = "David Allmon"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -428,7 +428,7 @@ enableEmoji = true
     # whether to show the author
     author = true
     # Site creation year
-    since = ""
+    since = "2024"
     # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
     gov = ""
     # ICP info only in China (HTML format is supported)
@@ -437,16 +437,16 @@ enableEmoji = true
     license = ""
     # FixIt 0.3.0 | NEW whether to show Hugo and theme info
     [params.footer.powered]
-      enable = true
+      enable = false
       hugoLogo = true
       themeLogo = true
     # FixIt 0.2.17 | CHANGED Site creation time
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2021-12-18T16:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
@@ -473,8 +473,8 @@ enableEmoji = true
     # FixIt 0.2.13 | NEW recently updated pages config
     # TODO refactor to support archives, section, taxonomy and term
     [params.section.recentlyUpdated]
-      enable = false
-      rss = false
+      enable = true
+      rss = true
       days = 30
       maxCount = 10
 
@@ -501,17 +501,17 @@ enableEmoji = true
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = false
+      enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "admin@davidallmon.dev"
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/images/me.png"
       # FixIt 0.2.17 | NEW identifier of avatar menu link
-      avatarMenu = ""
+      avatarMenu = "main"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "Hi, I'm Dave"
       # subtitle shown in home page
-      subtitle = ""
+      subtitle = "TECH ENTHUSIAST | WEB DESIGNER | HOME LAB AFICIONADO"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -526,11 +526,11 @@ enableEmoji = true
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
+    GitHub = "https://github.com/davidallmon"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
-    Facebook = ""
+    Facebook = "https://facebook.com/davidjallmon"
     Telegram = ""
     Medium = ""
     Gitlab = ""
@@ -747,7 +747,7 @@ enableEmoji = true
       replace = false
     # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
     [params.page.related]
-      enable = false
+      enable = true
       count = 5
     # FixIt 0.2.17 | NEW Donate (Sponsor) settings
     [params.page.reward]
