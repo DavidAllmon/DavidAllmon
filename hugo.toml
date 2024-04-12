@@ -297,7 +297,7 @@ enableEmoji = true
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
   # NEW date format
-  dateFormat = "2006-01-02"
+  dateFormat = "01-02-2006"
   # website images for Open Graph and Twitter Cards
   images = []
   # FixIt 0.2.12 | NEW enable PWA
@@ -1103,9 +1103,9 @@ enableEmoji = true
   # FixIt 0.2.17 | NEW Define custom file paths
   # Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
   [params.customFilePath]
-    # aside = "custom/aside.html"
-    # profile = "custom/profile.html"
-    # footer = "custom/footer.html"
+    #aside = "custom/aside.html"
+    profile = "custom/profile.html"
+    #footer = "custom/footer.html"
 
   # FixIt 0.2.15 | NEW Developer options
   [params.dev]
