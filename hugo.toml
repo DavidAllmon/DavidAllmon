@@ -913,14 +913,14 @@ enableEmoji = true
         katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
-        enable = false
-        repo = ""
-        repoId = ""
-        category = ""
-        categoryId = ""
-        mapping = ""
+        enable = true
+        repo = "DavidAllmon/DavidAllmon"
+        repoId = "R_kgDOLtFq4w"
+        category = "General"
+        categoryId = "DIC_kwDOLtFq484Ceo3n"
+        mapping = "pathname"
         strict = "0" # FixIt NEW | 0.2.18
-        term = ""
+        term = "tech"
         reactionsEnabled = "1"
         emitMetadata = "0"
         inputPosition = "bottom" # ["top", "bottom"]

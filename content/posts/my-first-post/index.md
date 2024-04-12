@@ -12,7 +12,7 @@ author:
 description: A brief summory of what I got going on.
 keywords:
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - about
