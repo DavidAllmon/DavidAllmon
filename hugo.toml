@@ -391,11 +391,11 @@ enableEmoji = true
     # FixIt 0.2.13 | CHANGED desktop header mode ["sticky", "normal", "auto"]
     desktopMode = "sticky"
     # FixIt 0.2.13 | CHANGED mobile header mode ["sticky", "normal", "auto"]
-    mobileMode = "auto"
+    mobileMode = "sticky"
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "images/me.png"
+      logo = ""
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -489,7 +489,7 @@ enableEmoji = true
 
   # FixIt 0.2.17 | NEW TagCloud config for tags page
   [params.tagcloud]
-    enable = false
+    enable = true
     min = 14 # Minimum font size in px
     max = 32 # Maximum font size in px
     peakCount = 10 # Maximum count of posts per tag
