@@ -892,13 +892,13 @@ enableEmoji = true
         enable = false
       # Utterances comment config (https://utteranc.es)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
-        issueTerm = ""
-        label = ""
-        lightTheme = ""
-        darkTheme = ""
+        repo = "DavidAllmon/DavidAllmon"
+        issueTerm = "pathname"
+        label = "comment"
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = false
@@ -913,7 +913,7 @@ enableEmoji = true
         katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
-        enable = true
+        enable = false
         repo = "DavidAllmon/DavidAllmon"
         repoId = "R_kgDOLtFq4w"
         category = "General"
@@ -926,7 +926,7 @@ enableEmoji = true
         inputPosition = "bottom" # ["top", "bottom"]
         lightTheme = "light"
         darkTheme = "dark"
-        lazyLoad = false
+        lazyLoad = true
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
