@@ -355,7 +355,7 @@ enableEmoji = true
 
   # Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["algolia", "fuse"]
     type = "fuse"
     # max index length of the chunked content
@@ -395,7 +395,7 @@ enableEmoji = true
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "images/me.png"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -1034,7 +1034,7 @@ enableEmoji = true
 
   # Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
@@ -1074,11 +1074,11 @@ enableEmoji = true
   [params.backToTop]
     enable = true
     # Scroll percent label in b2t button
-    scrollpercent = false
+    scrollpercent = true
 
   # FixIt 0.2.16 | NEW Reading progress bar
   [params.readingProgress]
-    enable = false
+    enable = true
     # Available values: ["left", "right"]
     start = "left"
     # Available values: ["top", "bottom"]
@@ -1093,12 +1093,33 @@ enableEmoji = true
   [params.pace]
     enable = false
     # All available colors:
-    # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
-    color = "blue"
+    # color = "black"
+    # color = "blue"
+    # color = "green"
+    # color = "orange"
+    # color = "pink"
+    # color = "purple"
+    # color = "red"
+    # color = "silver"
+    # color = "white"
+    # color = "yellow"
+
     # All available themes:
-    # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
-    # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
-    theme = "minimal"
+    # theme = "barber-shop"
+    # theme = "big-counter"
+    # theme = "bounce"
+    # theme = "center-atom"
+    # theme = "center-circle"
+    # theme = "center-radar"
+    # theme = "center-simple"
+    # theme = "corner-indicator"
+    # theme = "fill-left"
+    # theme = "flash"
+    # theme = "flat-top"
+    # theme = "loading-bar"
+    # theme = "mac-osx"
+    # theme = "material"
+    # theme = "minimal"
   
   # FixIt 0.2.17 | NEW Define custom file paths
   # Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
