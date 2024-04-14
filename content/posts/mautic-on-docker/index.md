@@ -9,7 +9,7 @@ author:
   link: https://techitdave.com
   email: admin@davidallmon.dev
   avatar: /images/me.png
-description:
+description: 
 keywords:
 license:
 comment: true
@@ -17,14 +17,16 @@ weight: 0
 tags:
   - Docker
   - Marketing
+  - Self Hosted
 categories:
   - Docker
   - Marketing
+  - Self Hosted
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false
 hiddenFromRelated: false
-summary:
+summary: 
 resources:
   - name: featured-image
     src: mautic-on-docker.png
